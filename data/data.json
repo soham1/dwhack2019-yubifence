@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Soham Ashodiya",
+            "address": "4310 Union Street, Seattle, WA",
+            "email": "soham@fake.com",
+            "phone": "510-720-0394",
+            "password": "soham",
+            "accountNumber": "4320-864947"
+        },
+        {
+            "id": 2,
+            "name": "Kaushik Ashodiya",
+            "address": "6534 Finale Street, Seattle, WA",
+            "email": "kaushik@fake.com",
+            "phone": "510-345-6573",
+            "password": "kaushik",
+            "accountNumber": "3453-345612"
+        }
+    ]
+}

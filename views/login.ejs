@@ -1,0 +1,25 @@
+<% include ../partials/header %>
+
+<div class="container loginContainer">
+    <h3 class="center-align">Login</h3>
+    <form class="col s12 loginForm" action="/api/authenticate" method="post">
+        <div class="input-field col s6 emailLoginField">
+          <input id="email" type="email" name="email" class="validate">
+          <label for="email">Email</label>
+      </div>
+        <div class="input-field col s6 passwordLoginField">
+          <input id="password" type="password" name="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+        <div class="center-align loginSubmit">
+          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+    </form>
+</div>
+
+
+
+
+<% include ../partials/footer %>

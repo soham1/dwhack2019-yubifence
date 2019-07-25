@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+
+.emailLoginField {
+  width: 400px !important;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.passwordLoginField {
+  width: 400px !important;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.registerFields {
+  margin-top: 20px;
+}
+
+.loginSubmit {
+  margin-top: 40px;
+}
+
+.loginContainer {
+  margin-top: 150px;
+}
+
+.registerOptions {
+  margin-top: 150px;
+}
+
+#map1 {
+    height: 500px;
+    width: 500px;
+}
+
+#map2 {
+    height: 500px;
+    width: 500px;
+}
